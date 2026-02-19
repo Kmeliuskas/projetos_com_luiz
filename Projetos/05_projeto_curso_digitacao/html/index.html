@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Digitação</title>
+
+    <!-- ESTILO CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <!-- IMPORTAÇÃO DO JS CUSTOMIZADO -->
+    <script src="../js/script.js" defer></script>
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- MENU LATERAL ESQUERDO -->
+        <section class="menu_lateral">
+            <h1 class="titulo_menu">Niveis de Digitação</h1>
+
+            <!-- LISTA DE NIVEIS -->
+            <ul class="lista_niveis">
+                <li id="nivel_01">Nivel 1</li>
+                <li id="nivel_02">Nivel 2</li>
+                <li id="nivel_03">Nivel 3</li>
+                <li id="nivel_04">Nivel 4</li>
+                <li id="nivel_05">Nivel 5</li>
+            </ul>
+        </section>
+
+        <!-- CONTEUDO PRINCIPAL -->
+        <section class="conteudo_principal">
+
+            <!-- TITULO DA PÁGINA -->
+            <h1 class="titulo_da_pagina">Curso avançado de Digitação</h1>
+
+            <!-- SESSÃO COM A FRASE PARA O JAVASCRIPT -->
+            <section class="nivel_frase">
+                <p id="textoNivel">Aprender a digitar é essencial. Comece com práticas diárias</p>
+            </section>
+
+            <!-- INPUT PARA DIGITAR AS RESPOSTAS -->
+            <input type="text" class="input_resposta" id="inputResposta" autocomplete="off">
+
+            <!-- SECTION DE RESULTADOS -->
+            <section class="resultado">
+                <div class="resultado_letras">
+                    <p>Letras corretas: <span id="letrasCorretas">0</span></p>
+                    <p>|</p>
+                    <p>Letras erradas: <span id="letrasErradas">0</span></p>
+                </div>
+
+                <p>Tempo restante: <span id="tempoRestante">60</span></p>
+            </section>
+
+        </section>
+    </main>
+
+
+
+
+</body>
+
+</html>
