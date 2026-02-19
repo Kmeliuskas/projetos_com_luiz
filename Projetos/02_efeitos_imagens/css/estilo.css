@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 1.2rem;
+    font-weight: 500;
+}
+
+.section_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.section_grid .estilo_imgs {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: .4rem;
+}
+
+.container_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.legenda {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 5px;
+    background-color: black;
+    min-width: 70%;
+
+}
