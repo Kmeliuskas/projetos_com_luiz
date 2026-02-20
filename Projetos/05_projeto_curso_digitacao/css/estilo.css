@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +23,7 @@
     font-weight: 500;
     text-align: center;
     padding: 2rem;
+    text-wrap: nowrap;
 }
 
 .lista_niveis {
@@ -54,10 +54,11 @@
     padding: .8rem;
     border-radius: .25rem;
     margin: 1rem 0;
+    max-width: 70%;
 }
 
 .input_resposta {
-    width: 100%;
+    width: 70%;
     padding: .6rem;
     margin-bottom: 1rem;
 }
